@@ -2,5 +2,5 @@
 max-line-length = 88
 inline-quotes = double
 extend-ignore = E203, W503
-exclude = .git,__pycache__,build,dist,.venv
+exclude = .git,__pycache__,build,dist,.venv,migrations
 
