@@ -28,9 +28,18 @@ deactivate
 ```bash
 pip install -r backend/requirements.txt
 ```
+
+#### Setup environment variable
+
+```bash
+touch .env
+# COPY PAST from .env.example file
+# Ask for some variables
+```
 #### Start docker services
 
 ```bash
+docker compose build
 docker compose up -d
 ```
 
