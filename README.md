@@ -36,6 +36,14 @@ touch .env
 # COPY PAST from .env.example file
 # Ask for some variables
 ```
+
+#### Setup pre-commit
+
+```bash
+pre-commit install # first use
+pre-commit install --overwrite
+```
+
 #### Start docker services
 
 ```bash
